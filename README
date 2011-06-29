@@ -1,0 +1,47 @@
+This project was done in a day. 
+This calculator is unique in a way that it can take both words and 
+numbers as input. Words can also refer to operators.
+Also supported are floating point numbers, negative 
+numbers etc.
+
+Although it sounds simple, writing the parser and coming up with the 
+algorithm was a good exercise in Parsing and data structure.
+
+E.g. of what is supported
+
+1) 2 + 2
+
+2) two plus two
+
+3) two + two
+
+4) 2 * with two
+
+5) five plus seven * eight (shows that precedence is in relation with DMAS)
+
+6) three million fifty thousand seven hundred eighty * fifty two + 78
+
+7) negative five plus 3
+
+8) -5 + 3 (no space between - and 5 )
+
+9) negative three hundred and sixty minus negative five
+
+// in 10th case please note that whatever the value is in () is separated by spaces
+// Value between parenthesis will be considered as the value after the decimal point
+10) three thousand three hundred thirty three point ( thirty three ) * three 
+
+11) negative five hundred and fifty point ( two ) divide eighty five point ( five )
+
+12) negative eight plus 5 negative
+
+13) three + xyz
+
+14 ) one million minus five hundred thousand
+
+
+
+
+
+
+
